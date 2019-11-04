@@ -1,5 +1,25 @@
 <resources>
-    <string name="app_name">My First Kotlin App</string>
+    <string name="app_name">Mad Libs</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
+    <string name="adj">Adjective</string>
+    <string name="place">Place</string>
+    <string name="p_noun">Plural Noun</string>
+    <string name="feel">Feeling</string>
+    <string name="noun">Noun</string>
+    <string name="create">Create Mad Lib</string>
+    <string name="line_1">I think I am qualified for this job</string>
+    <string name="line_2">because I\'m</string>
+    <string name="line_3">I got a college education at the</string>
+    <string name="line_4"> and I majored in</string>
+    <string name="line_5">I consider myself very</string>
+    <string name="line_6"> because I\'m a</string>
+    <string name="line_7">I have experience using</string>
+    <string name="line_8"> and a</string>
+    <string name="line_9"> I think this makes me the right</string>
+    <string name="line_10"> person for this</string>
+    <string name="line_11"> job.</string>
+    <string name="line_12">Thank you.</string>
+    <string name="title">Job Application</string>
+
 </resources>
