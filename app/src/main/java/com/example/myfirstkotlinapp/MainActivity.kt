@@ -51,7 +51,28 @@ class MainActivity : AppCompatActivity() {
         val m8 = lib_8.text.toString()
         val m9 = lib_9.text.toString()
 
-//        val message = "I think I am qualified for this job because I'm " + m1 + ". I got a college education at the "+ m2 + " and I majored in " + m3 + ". I consider myself very " + m4 + " because I'm a " + m5 + ". I have experience using "+m6+ " "+m7+ " and a " + m8 + ". I think these, among many other qualifications, make me right for this " + m9+ "job. Thank you."
+        var thisthing: Boolean = true
+
+        if(m1 =="")
+            thisthing = false
+        if(m2 =="")
+            thisthing = false
+        if(m3 =="")
+            thisthing = false
+        if(m4 =="")
+            thisthing = false
+        if(m5 =="")
+            thisthing = false
+        if(m6 =="")
+            thisthing = false
+        if(m7 =="")
+            thisthing = false
+        if(m8 =="")
+            thisthing = false
+        if(m9 =="")
+            thisthing = false
+
+
         val intent = Intent(this, DisplayMessageActivity::class.java).apply {
             putExtra(EXTRA_MES1, m1+".")
             putExtra(EXTRA_MES2, m2)
@@ -63,6 +84,9 @@ class MainActivity : AppCompatActivity() {
             putExtra(EXTRA_MES8, m8)
             putExtra(EXTRA_MES9, m9)
         }
-        startActivity(intent)
+        if(thisthing){
+            startActivity(intent)
+        }
+
     }
 }

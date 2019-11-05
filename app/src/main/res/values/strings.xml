@@ -10,7 +10,7 @@
     <string name="create">Create Mad Lib</string>
     <string name="line_1">I think I am qualified for this job</string>
     <string name="line_2">because I\'m</string>
-    <string name="line_3">I got a college education at the</string>
+    <string name="line_3">I got a college education at U of</string>
     <string name="line_4"> and I majored in</string>
     <string name="line_5">I consider myself very</string>
     <string name="line_6"> because I\'m a</string>
@@ -21,5 +21,6 @@
     <string name="line_11"> job.</string>
     <string name="line_12">Thank you.</string>
     <string name="title">Job Application</string>
+    <string name="nothing" />
 
 </resources>
